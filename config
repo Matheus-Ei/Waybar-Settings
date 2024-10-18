@@ -5,7 +5,7 @@
     "width": 1880,
     "spacing": 4,
 
-    "modules-left": ["hyprland/workspaces"],
+    "modules-left": ["hyprland/workspaces", "wlr/taskbar"],
     "modules-center": ["custom/clock", "keyboard-state"],
     "modules-right": ["network", "cpu", "temperature", "memory", "pulseaudio"],
 
@@ -15,6 +15,16 @@
         "format-disconnected": "", 
         "max-length": 50,
         "on-click": "kitty -e 'nmtui'"
+    },
+
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 20,
+        "icon-theme": "Star",
+        "tooltip-format": "{title}",
+        "on-click": "minimize",
+        "on-click-middle": "close",
+        "on-click-right": "activate"
     },
 
     "custom/clock": {

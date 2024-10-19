@@ -17,6 +17,7 @@ window#waybar {
 
 #workspaces {
     margin-top: 3px;
+    padding-top: 3px;
 
     padding-left: 10px;
     padding-right: 10px;
@@ -33,6 +34,7 @@ window#waybar {
 
 #taskbar {
     margin-top: 3px;
+    padding-top: 3px;
 
     padding-left: 10px;
     padding-right: 10px;

@@ -1,75 +1,24 @@
 * {
     font-family: "Terminus (TTF)";
-    font-size: 13px;
-    min-height: 25px;
+    font-size: 12px;
+
+    background: transparent;
+    color: #ffffff;
 }
 
 window#waybar {
     background: transparent;
-    color: #ffffff;
-    transition-property: background-color;
     transition-duration: 0.5s;
+    background-color: rgba(0, 0, 0, 0.8);
 }
+
 #window {
-    font-size: 14px;
     font-weight: bold;
 }
 
-#workspaces {
-    margin-top: 3px;
-    padding-top: 3px;
-
-    padding-left: 10px;
-    padding-right: 10px;
-
-    border-radius: 20px;
-
-    background-color: #121212;
-    color: #ffffff;
-}
 #workspaces button.active {
     border-radius: 0px;
     border-bottom: 1px solid #c9545d;
-}
-
-#taskbar {
-    margin-top: 3px;
-    padding-top: 3px;
-
-    padding-left: 10px;
-    padding-right: 10px;
-
-    border-radius: 20px;
-
-    background-color: #121212;
-    color: #ffffff;
-}
-#taskbar button.active {
-    border-radius: 0px;
-    border-bottom: 1px solid #c9545d;
-}
-
-.modules-right {
-    margin-top: 3px;
-
-    border-radius: 20px;
-    background-color: #121212;
-
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-#custom-clock {
-    margin-top: 3px;
-
-    padding-top: 3px;
-    padding-left: 15px;
-    padding-right: 15px;
-
-    border-radius: 20px;
-
-    background-color: #121212;
-    color: #ffffff;
 }
 
 #cpu,
@@ -78,10 +27,8 @@ window#waybar {
 #pulseaudio,
 #keyboard-state,
 #temperature {
-    margin-left: 12px;
-    margin-right: 12px;
-
-    color: #ffffff;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 #network.disconnected {
     background-color: #f53c3c;
